@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/25/2025 - Joined Blueprint! Updated my Blueprint with current progress  
+## 10/25/2025 3 PM - Joined Blueprint! Updated my Blueprint with current progress  
 
 I started this project like two weeks ago as a my first PCB project, and only now did I realize there was a YSWS for this exact thing lmfao.
 When I started this project, I hooked up Hackatime to my KiCad, and made a nice little schematic for this, and also started routing this board. The schematic is just an Arduino Micro Pro, connected to three PCF8575s, that then routes into 10 CD4066s. This is then hooked into a common bus and a ribbon connector, which is supposed to short two pins of the matrix at a time. The 10 CD4066s are insane to route, so I'm currently trying to find another SPST chip that isn't a bajillion dollars. This is still an improvement from my previous plan of 90 MOSFET switches for my first prototype! Schematics attached below!
@@ -15,5 +15,13 @@ When I started this project, I hooked up Hackatime to my KiCad, and made a nice 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTM4MSwicHVyIjoiYmxvYl9pZCJ9fQ==--91e3e950a980b66c42beeb00ca3d6cb75f799812/image.png)
 
 
+  
+
+## 10/25/2025 6 PM - Redesigned PCB!  
+
+I did not like the crowded method of having a PCF8575 IC expander that then connects into CD4066s, so I did the logical thing and went hunting for a higher channel capacity SPST switch, which lead me to find the (relatively) cheap MAX335, a chip with 8 seperately controlled SPST switches (double what the CD4066 had, with only 4 SPST switches), and ALSO support daisy chaining (using the SPI interface instead of the I2C interface the PFC8575 used), which halved the amount of analog switch chips I needed, and also removed the need for the PFC8575 chips since everything is daisy-chained! Now I need to actually do routing lmao.
+OH YEAH ALSO i added decaps. very silly.
+Schematics attached below!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--69e1cc28a246cf1e50baa240e2d9e016fedfc953/image.png)
   
 
