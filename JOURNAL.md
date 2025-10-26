@@ -25,7 +25,7 @@ Schematics attached below!
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQxMiwicHVyIjoiYmxvYl9pZCJ9fQ==--69e1cc28a246cf1e50baa240e2d9e016fedfc953/image.png)
   
 
-## 10/26/2025 - Routed the PCB  
+## 10/26/2025 1 PM - Routed the PCB  
 
 This was two days of my life, mostly because of the fact that I have never done anything like this before (not even the "Hello world" of PCBCADing, I skipped the humble LED + Resistor intro and dived DIRECTLY INTO WHATEVER THIS IS!)
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTYzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--c8a34838a62289a7798358e25650596cbfd47e8d/image.png)
@@ -33,5 +33,12 @@ This was two days of my life, mostly because of the fact that I have never done 
 My routing is a bit horrible but I managed to get this done at last. I also learnt about the existence of power and ground fills (and how it's SUPPOSED to reduce interference?) so like I used them in the GND and VCC layers of my board!
 PCB attached below:
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTYyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--55377d3bb6b8f6b9268645b095ffd4359dd29f18/image.png)
+  
+
+## 10/26/2025 2 PM - Cleaned up the PCB  
+
+I'm writing this in a haste. I redid some of the connections that looked weird or that could be optimized, and stuck the branding on there as well. Reminder to self to start taking measurements and finish the pogo board by today, as well as silkscreen the github urb and credits onto the board.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0MywicHVyIjoiYmxvYl9pZCJ9fQ==--c4b839e30c52b653426120e5bf018aba712536d5/image.png)
   
 
