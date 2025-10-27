@@ -42,3 +42,16 @@ I'm writing this in a haste. I redid some of the connections that looked weird o
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0MywicHVyIjoiYmxvYl9pZCJ9fQ==--c4b839e30c52b653426120e5bf018aba712536d5/image.png)
   
 
+## 10/27/2025 - Made the second board and cleaned up the PCB (Pt. 2)  
+
+I did all the required measurements for the second interface board that is supposed to make the connection between the calculator and my logic board... even made a script that explores the best possible arrangement for the pins such that there wouldn't be any overlaps between the routing:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTk3NywicHVyIjoiYmxvYl9pZCJ9fQ==--964629a7ddb4fee443cb6e76f734309745951917/image.png)
+Script here:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTk3OCwicHVyIjoiYmxvYl9pZCJ9fQ==--4baf5b198b2377ac89acffab579826e68a4306b1/image.png)
+
+
+After that, I read through the devboard tutorial and realized I made many bad PCB mistakes (e.g. not dogbone'ing my vias, caps way bigger than required, yada yada)... so I redid my routing. it still has many problems with it but I'm just so done with PCBing for today:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTk3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--a5e3dd4a0fd882577b4e199d64636965c528f4db/image.png)
+
+Maybe I'll tank tonight out and fix up my horrible choices? I don't know... I have a robotics competition tomorrow...  
+
