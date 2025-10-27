@@ -55,3 +55,10 @@ After that, I read through the devboard tutorial and realized I made many bad PC
 
 Maybe I'll tank tonight out and fix up my horrible choices? I don't know... I have a robotics competition tomorrow...  
 
+## 10/28/2025 - Readme'ing and DNSing  
+
+I wrote a nice little readme on my github page, and spent another good portion of today night to make both https://calcwriter.sillyy.gay and http://calcwriter.sillyy.gay redirect to https://github.com/CastyLoz17/calcwriter_blueprint using Cloudfare. This took way too long. I suck at DNS records. This sucks.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjAyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--a8ee728870704d8011724a7406b51d4db056e9cc/image.png)
+
+note to self to clean up pcb after I return from tomorrow's competition.  
+
