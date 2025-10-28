@@ -62,3 +62,12 @@ I wrote a nice little readme on my github page, and spent another good portion o
 
 note to self to clean up pcb after I return from tomorrow's competition.  
 
+## 10/29/2025 - Swapped Arduino out for SOC  
+
+Title says it all! I swapped the Sparkfun Micro Pro with a SOC (More specifically, the ATmega32U4) to be put directly onto the board! Right now though, its just the schematics only, and I haven't wired the main components yet (e.g. Only connected the USB-C header and crystal oscillator)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjI3MSwicHVyIjoiYmxvYl9pZCJ9fQ==--443b327f9152ba3afd577f4e6b45a47ea60960b7/image.png)
+Also, before that, I cleaned up my PCB for the... I-don't-even-know-anymore-th time... so theres that!
+Tomorrow, I'll work on reworking my old SPST Analog Switches with absolutely horrible wiring, with some new schematics with nets and stuff, connect the SOC to the Analog Switches, and maaaybe start working on connecting the SOC to the main board if I have the time?
+I also realized my Interface board was in the wrong orientation, and had to be flipped over. I was SOOOO close to hand-doing it until my lord and savior Keyaan said that I could just move components from one side of the board to the other side, and vice versa. This tip helped me save so much time, I CANNOT thank you enough!
+All in all a very long day (Microchip Technologies make HORRIBLE docs), but I'm glad I got things done.  
+
