@@ -71,3 +71,20 @@ Tomorrow, I'll work on reworking my old SPST Analog Switches with absolutely hor
 I also realized my Interface board was in the wrong orientation, and had to be flipped over. I was SOOOO close to hand-doing it until my lord and savior Keyaan said that I could just move components from one side of the board to the other side, and vice versa. This tip helped me save so much time, I CANNOT thank you enough!
 All in all a very long day (Microchip Technologies make HORRIBLE docs), but I'm glad I got things done.  
 
+## 10/30/2025 - Swapped Arduino out for SOC (on the PCB!)  
+
+I have gone TOO long without writing a journal entry, and it's ITCHING ASKJFHAJLFHSDKJFHAL
+I've done a LOT in the past 2 days:
+- Finished and cleaned up Schematics
+- Swapped out the Arduino out for a ATmega32U4
+- REwired my PCB because I changed some stuff in the schematics
+
+The following is... TWO WHOLE DAMN DAYS OF WORK!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjczMiwicHVyIjoiYmxvYl9pZCJ9fQ==--7ddf8a361f9bbe0b0d926d8b05d6cb43f957890b/image.png)
+
+Next up, I'll optimize the PCB, and then ship this project!
+also, say hi to Goober!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjczMywicHVyIjoiYmxvYl9pZCJ9fQ==--cc9540155ec39c9dcf3785410ea4c9dfdfb94f4b/image.png)
+
+p.s. Don't mind the mismatched holes at the top, I forgot to refill copper fills before taking a screenshot and am too lazy to fix.  
+
