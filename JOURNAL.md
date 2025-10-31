@@ -88,3 +88,11 @@ also, say hi to Goober!
 
 p.s. Don't mind the mismatched holes at the top, I forgot to refill copper fills before taking a screenshot and am too lazy to fix.  
 
+## 10/31/2025 - Fixed some mistakes, made vias bigger (for cost efficiency)  
+
+So... apparently my board was not cost-efficient as I had to use 0.15mm via hole sizes, and the blueprint people were not too happy about that. The base via hole size JLC offers is 0.3mm hole size, so I had to go through and change every via to be double its size! AAAAND then I did one final sanity check and realized I have been using a 48 pin chip instead of the 44 pin I should be using, which means I had to redo the SOC since it was the wrong footprint. At long last this (should) be done! unless... I figure out how to remove the last horizontal CD4066 chip somehow? that would make my board way shorter... if only there was a way to employ the GPIO pins... I'll think about this overnight
+
+PCB below!:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--86c0bf173cff87582b2801d134a448ad8ac9b524/image.png)
+  
+
