@@ -96,3 +96,14 @@ PCB below!:
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--86c0bf173cff87582b2801d134a448ad8ac9b524/image.png)
   
 
+## 11/3/2025 - light rerouting and some styling  
+
+explorpheus!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk0MiwicHVyIjoiYmxvYl9pZCJ9fQ==--fc973317ed97438a5bc62c41175136845ba1d2d2/image.png)
+
+
+i also did a bit of cleaning up (again), made the board a biiitt shorter and way more appealing. also printed the outline out using my 3d printer and i like the size! thats silly heh
+welp theres nothing left to do except writing the github and also some simple blinky firmware and then shipping! 4 days till november 7th and im proud of meh speed!
+  
+
