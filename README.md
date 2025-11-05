@@ -25,7 +25,7 @@ The logic board is the main component, where all the calculations and inputs are
 ## 2. The Interface board:
 | Front | Back | Schematics |
 |---|---|---|
-|<img width="539" height="865" src="https://github.com/user-attachments/assets/6a45d1f6-7d71-4151-a713-afa36926857f" /> | <img width="539" height="865" src="https://github.com/user-attachments/assets/02ed678b-f0c6-4021-b716-a472f0748bd4" /> | <img height="865" src="https://github.com/user-attachments/assets/2adb711a-a12c-4e13-90b1-4fa91785c997" />|
+|<img width="539" height="865" src="https://github.com/user-attachments/assets/6a45d1f6-7d71-4151-a713-afa36926857f" /> | <img width="539" height="865" src="https://github.com/user-attachments/assets/02ed678b-f0c6-4021-b716-a472f0748bd4" /> | <img height="865" src="https://github.com/user-attachments/assets/ae547bc5-ef4c-405a-9825-f690d81cb59a" />|
 
 
 
