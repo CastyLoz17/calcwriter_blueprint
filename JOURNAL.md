@@ -107,3 +107,14 @@ i also did a bit of cleaning up (again), made the board a biiitt shorter and way
 welp theres nothing left to do except writing the github and also some simple blinky firmware and then shipping! 4 days till november 7th and im proud of meh speed!
   
 
+## 11/7/2025 - complete reroute, cutting costs, shrinking board (and more!)  
+
+below you see 18 hours of work in one screenshot!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTA4NywicHVyIjoiYmxvYl9pZCJ9fQ==--16142b445951b50e54053099867d9b0bc7e04fef/image.png)
+
+for starters, you might see that the board is different. thats because i completely rerouted everything!! after a bit of tinkering on my calculator board with my multimeter, i found out that there were (at least) 8 pairs of vias that are internally connected! and 8 is also how many channels one MAX335 chip offers. this gave me a way to completely remove the 5th chip at the bottom, reducing my board's vertical length and wiring complexity! these newly opened channels also provided me a way to connect the ISP headers AND the calculator power supply directly to the interface board using ribbon cables (_6 + 1 = 7_ channels for this, just about how much channels i freed. that gives me 31 + 7 = 38 channels, 2 less than the 40 that my ribbon cable offers)! this also meant i could remove the pads for the ISP and calculator power, which further reduced the height of my board!
+
+now, all thats left to do is to redo my interface board, do a final sanity check and a cleanup, then update my github! lowkey proud of myself, since this is my _first damn pcb project_ :3
+
+(p.s. i also spent like 3 hours compiling and recompiling my bom after every change, but since that was time i could have saved if i wasnt so anxious, i didnt count it. this 18 hours is just me testing my calculator and redesigning my board)  
+
