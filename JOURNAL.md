@@ -118,3 +118,9 @@ now, all thats left to do is to redo my interface board, do a final sanity check
 
 (p.s. i also spent like 3 hours compiling and recompiling my bom after every change, but since that was time i could have saved if i wasnt so anxious, i didnt count it. this 18 hours is just me testing my calculator and redesigning my board)  
 
+## 11/8/2025 - updated schematics!  
+
+the schematics have been updated to reflect the new ribbon cable connections!
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTE4MiwicHVyIjoiYmxvYl9pZCJ9fQ==--1a836f70fbed05c06e80c2554f5de6706c7c38c5/image.png)
+i also switched the HORRIBLE schematics i did and replaced the connections with nets! now time for the PCB... siiighhhh  
+
