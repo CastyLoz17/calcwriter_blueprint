@@ -4,7 +4,7 @@ A hardware board that emulates keypresses on the keypad matrix of a Sharp EL-W53
 
 So uh, once upon a bus ride home, I had a brain blast — a year before, I made math equations that mimicked computer logic ops like `AND`, `OR`, `NOT`, etc. Then I got spicy and added stuff like `SIGN`, `TO_BOOL`, and `EQUALS_TO`. I even hacked together `if` statements and pseudo-loops! but... I couldn’t store variables (tragic).
 
-Eventually I realized I could abuse rounding errors and tangent’s cycly-ness to make storage actually _work_. Huge win. But typing those monster equations by hand? Pain. so the project died (rip scrap paper notes).
+Eventually I realized I could abuse rounding errors and tangent’s cycly-ness to make storage actually _work_. Huge win. But typing those monster equations by hand? Pain. So the project died (rip scrap paper notes).
 
 Then I wondered if a calculator could be turing complete (spoiler: no 💀), which spiraled into "what if I made it _automate itself_"? Thus, **Calcwriter** was born.
 
