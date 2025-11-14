@@ -20,7 +20,7 @@ This board is split into two parts, mainly for modularity and also to cut costs 
 | ------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------ |
 | <img height="800" src="preview/calcwriter_logic_front.png" /> | <img height="800" src="preview/calcwriter_logic_back.png" /> | <img height="800" src="preview/calcwriter_logic_schematics.png" /> |
 
-The logic board is the main component, where all the calculations and inputs are actually happening. It is powered by an ATmega32U4 and a bunch of SPST Analog Switches for controlling inputs. Equations will be sent over by the main device through a serial connection, which also powers the board.
+The logic board is the main component, where all the calculations and inputs are actually happening. It is powered by an ATmega32U4 microcontroller and a bunch of SPST Analog Switches (MAX335CWGs) for controlling inputs. Equations will be sent over by the main device through a serial connection, which also powers the board.
 
 ## 2. The Interface board:
 
@@ -28,7 +28,7 @@ The logic board is the main component, where all the calculations and inputs are
 | ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------- |
 | <img height="800" src="preview/calcwriter_pins_front.png" /> | <img height="800" src="preview/calcwriter_pins_back.png" /> | <img height="800" src="preview/calcwriter_pins_schematics.png" /> |
 
-The interface board is the board that connects the logic board to the calculator. It has 39 pogo pins, each precisely placed such that when the board is placed onto the calculator, the pogo pins connects to the matrix vias of the calculator, and the connections are then extended up through a ribbon cable into the logic board for the actual controlling part. The interface board provides power to the calculator, and also provides an ISP interface to program the ATmega32U4. This part is seperated as it allows my logic board to stay as small as possible, and also to make it so that I dont have to waste a lot of money on 4 layers of mostly just empty boards and pogo pins.
+The interface board is the board that connects the logic board to the calculator. It has 31 input pogo pins, as well as 2 power supply pins, each precisely placed such that when the board is placed onto the calculator, the pogo pins connects to the matrix vias of the calculator. The connections are then extended up through a ribbon cable into the logic board for the actual controlling part. The interface board provides power to the calculator, and also provides an ISP interface to program the ATmega32U4. This part is seperated as it allows my logic board to stay as small as possible, and also to make it so that I dont have to waste a lot of money on 4 layers of mostly just empty boards and pogo pins.
 
 # Bill Of Material:
 
